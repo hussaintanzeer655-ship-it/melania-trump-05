@@ -1,0 +1,7 @@
+body{margin:0;font-family:Arial,Helvetica,sans-serif;background:#fff;color:#111}
+.site-header{display:flex;justify-content:space-between;align-items:center;padding:1rem;border-bottom:1px solid #eee}
+.brand{font-weight:700}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:1rem}
+.tile{aspect-ratio:1/1;background:linear-gradient(135deg,#2c7be5,#7bd389);border-radius:8px}
+.card{max-width:1000px;margin:1rem auto;padding:1rem;border-radius:8px;background:#f9f9f9}
+@media (max-width:700px){.grid{grid-template-columns:1fr}.tile{height:120px}}
