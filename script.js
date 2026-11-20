@@ -1,0 +1,1 @@
+(() => {const t=document.getElementById('toggle');let dark=false;t.addEventListener('click',()=>{dark=!dark;document.documentElement.style.filter=dark?'invert(0)':'invert(0)';});})();
